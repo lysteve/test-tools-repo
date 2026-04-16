@@ -1,0 +1,34 @@
+{
+  "summary": "Claude Code is an agentic coding tool for developers that integrates with the terminal to assist with code editing, debugging, and automation.",
+  "description": "Claude Code is designed for software developers and teams, providing AI-powered assistance directly in the terminal for tasks such as code editing, bug fixing, test execution, and codebase exploration. It operates by connecting to Anthropic’s API and can be integrated into development workflows, including CI/CD pipelines and containerized environments. The tool emphasizes security by design, with features like direct API connections, permission prompts for sensitive actions, and a multi-layered security approach in its reference container implementation.",
+  "emoji": null,
+  "proposed-use-case": "Test",
+  "company": "Both",
+  "tool-name": "Claude Code (Anthropic)",
+  "tool-url": "https://claude.ai/code",
+  "public-data": "Yes",
+  "confidential-data": "Yes with Restrictions",
+  "pii-data": "Never",
+  "status": "Reviewed",
+  "requested-by": "Test",
+  "uses": [
+    "Codebase exploration and summarization for internal projects with no PII",
+    "Automated code refactoring and bug fixing on anonymized or non-client code",
+    "Test generation and execution for internal or open-source projects",
+    "Documentation generation for non-confidential, non-PII codebases",
+    "CI/CD pipeline integration for internal repositories with no regulated data"
+  ],
+  "restrictions": [
+    "Do not use with any data containing PII, client secrets, or regulated information",
+    "Remove or anonymize all PII and sensitive credentials before use",
+    "Do not use for client project work with data residency or FOIPPA requirements",
+    "Review and verify all AI-generated outputs before use in production",
+    "Only use in environments with approved network and permission configurations; do not connect to unapproved MCP servers"
+  ],
+  "risk-assessment-url": null,
+  "last-assessed-date": "2026-04-16",
+  "reviewer": "Wil Arndt test",
+  "security-document-url": null,
+  "soc-certified": "Unknown",
+  "soc-type": null
+}
