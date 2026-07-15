@@ -1,0 +1,35 @@
+{
+  "slug": "zamp",
+  "tool-name": "Zamp",
+  "summary": "Automated US sales tax calculation, registration, and filing software for e-commerce and digital services businesses.",
+  "description": "Zamp is a US-focused sales tax compliance platform that automates tax calculation, state registration, and return filing via a dashboard and API. It targets e-commerce, digital services, and agency clients needing to manage multi-state US sales tax obligations. The platform processes transaction data (amounts, addresses, products) to determine tax liability and can act as an agent to file returns with state tax agencies. It does not currently support tax calculations outside the US, per its own privacy policy.",
+  "emoji": "🧾",
+  "tool-url": "https://zamp.com",
+  "proposed-use-case": "Tax compliance software",
+  "company": "Both",
+  "public-data": "Yes",
+  "confidential-data": "Yes",
+  "pii-data": "Conditional",
+  "status": "Reviewed",
+  "requested-by": "Steve",
+  "reviewer": "Steve Ly",
+  "last-assessed-date": "2026-07-15",
+  "uses": [
+    "Calculate, register, and file US multi-state sales tax obligations for ThoughtFarmer's US-based clients.",
+    "Submit US client transaction data (amounts, addresses, products) via dashboard or API for automated tax determination.",
+    "Provide US business contact details (name, email, phone, address) needed solely to complete state tax registrations and filings.",
+    "Use Zamp's CSV parsing feature to structure US transaction data ahead of filing submissions.",
+    "Retrieve and export filed US tax records within the 30-day post-termination window when offboarding the tool."
+  ],
+  "restrictions": [
+    "Do not submit Canadian, UK, or EU personal or transaction data into Zamp, as the tool is scoped and intended for US-only tax compliance.",
+    "Do not use Zamp for any government, citizen, or public-sector client data given its incomplete SOC 2 Type 2 attestation and unverified controls.",
+    "Limit data entry to the minimum contact and transaction information required for US tax filing, avoiding any broader PII categories.",
+    "Flag this tool to the AI Policy Oversight team for formal review given its pending SOC 2 Type 2 completion and evolving AI feature set.",
+    "Manually verify all tax calculations and filings before relying on them, since Zamp disclaims verification of customer-supplied data."
+  ],
+  "risk-assessment-url": "https://github.com/lysteve/test-tools-repo/blob/main/reports/2026-07-15-zamp-2.md",
+  "security-document-url": "https://drive.google.com/drive/folders/13De-nomdLWwWst3PVkn_vKz0MnQCQDA1?usp=drive_link",
+  "soc-certified": null,
+  "soc-type": null
+}
